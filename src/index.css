@@ -5,7 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('./assets/img/1026345.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  overflow-y: hidden;
 }
+/* 
+body {
+	background: rgb(247,95,93);
+background: linear-gradient(45deg, rgba(247,95,93,1) 0%, rgba(126,27,120,1) 32%, rgba(71,189,217,1) 100%);
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
